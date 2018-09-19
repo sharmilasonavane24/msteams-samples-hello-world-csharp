@@ -6,3 +6,120 @@
 div.panel {
     padding: 15px;
 }
+
+div.box {
+    
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid;
+    border-bottom-color: black;
+     border-width: thin;
+     align-self:center;
+
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+    /* style icon */
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.form-control {
+    padding-left: 30px;
+     
+   
+    
+}
+.bigTable{
+    width:100%
+}
+.form-control smaller{
+    width:100px;
+    align-self:center
+}
+
+    .form-control + .glyphicon {
+        position: absolute;
+        left: 0px;
+        padding:  15px 27px;
+    }
+
+
+.sides {
+    margin: 0;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    border-style: solid;
+    border-width: thin;
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.right {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    border-style: solid;
+    border-width: thin;
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.internalTable {
+     width: 70%;
+    border-style: solid;
+    border-width: thin;
+    align-self:center;
+    
+   
+}
+
+.internalTable th, td {
+    text-align: left;
+    padding: 15px;
+    width:auto;
+ 
+}
+.input_style {
+    padding-left: 200px;
+}
+    .internalTable tr:nth-child(odd) {
+        background-color: #f2f2f2;
+         
+    }
+
+    .fixedWidth{
+        width:50px;
+    }

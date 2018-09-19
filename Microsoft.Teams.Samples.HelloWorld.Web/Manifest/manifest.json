@@ -2,21 +2,21 @@
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
   "manifestVersion": "1.0",
   "version": "1.0.0",
-  "id": " 00000000-0000-0000-0000-000000000000",
-  "packageName": "com.contoso.helloworld",
+  "id": "e1e82541-cf57-4b2c-9cb2-216b70858d11",
+  "packageName": "com.terberg.helloworld",
   "developer": {
-    "name": "Contoso",
+    "name": "Terberg",
     "websiteUrl": "https://www.microsoft.com",
     "privacyUrl": "https://www.microsoft.com/privacy",
     "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
   },
   "name": {
-    "short": "Hello World",
-    "full": "Hello World App for Microsoft Teams"
+    "short": "Sequence Planner",
+    "full": "Sequence Planner App for Terberg Teams"
   },
   "description": {
-    "short": "Hello World App for Microsoft Teams",
-    "full": "This sample app provides a very simple app for Microsoft Teams. You can extend this to add more content and capabilities."
+    "short": "Sequence Planner App for Terberg Teams",
+    "full": "This sample app provides a very simple app for Terberg Teams. You can extend this to add more content and capabilities."
   },
   "icons": {
     "outline": "contoso20x20.png",
@@ -25,9 +25,9 @@
   "accentColor": "#60A18E",
   "staticTabs": [
     {
-      "entityId": "com.contoso.helloworld.hellotab",
-      "name": "Hello Tab",
-      "contentUrl": "https://yourteamsapp.ngrok.io/hello",
+      "entityId": "com.terberg.helloworld.hellotab",
+      "name": "Terberg Tab",
+      "contentUrl": "https://microsoftteamssampleshelloworldweb20180919030436.azurewebsites.net/hello",
       "scopes": [
         "personal"
       ]
@@ -35,7 +35,7 @@
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "https://yourteamsapp.ngrok.io/configure",
+      "configurationUrl": "https://microsoftteamssampleshelloworldweb20180919030436.azurewebsites.net/configure",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
@@ -44,7 +44,7 @@
   ],
   "bots": [
     {
-      "botId": "00000000-0000-0000-0000-000000000000",
+      "botId": "a5660269-4afa-4096-87c1-436ed0d51f55",
       "needsChannelSelector": false,
       "isNotificationOnly": false,
       "scopes": [
@@ -55,7 +55,7 @@
   ],
   "composeExtensions": [
     {
-      "botId": "00000000-0000-0000-0000-000000000000",
+      "botId": "a5660269-4afa-4096-87c1-436ed0d51f55",
       "scopes": [
         "personal",
         "team"

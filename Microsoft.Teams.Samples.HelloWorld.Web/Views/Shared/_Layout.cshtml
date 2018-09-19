@@ -3,11 +3,16 @@
 <head>
     <title>Microsoft Teams Hello World Sample App</title>
     @Styles.Render("~/Content/msteams-16.css")
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     @Styles.Render("~/Content/Site.css")
+    @Styles.Render("~/Content/bootstrap.min.css")
     @Scripts.Render("https://statics.teams.microsoft.com/sdk/v1.0/js/MicrosoftTeams.min.js")
     @Scripts.Render("~/Scripts/teamsapp.js")
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     @RenderSection("scripts", required: false)
+    @Styles.Render("~/Content/css")
+
 </head>
 <body class="theme-light">
     <div class="surface">
